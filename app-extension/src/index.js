@@ -7,7 +7,7 @@
 
 const extendConf = function (conf, api) {
   // make sure qpdfviewer boot file is registered
-  conf.boot.push('~@quasar/quasar-app-extension-qpdfviewer/src/boot/qpdfviewer.js')
+  conf.boot.push('~@icfdigital/quasar-app-extension-qpdfviewer/src/boot/qpdfviewer.js')
   console.log(` App Extension (qpdfviewer) Info: 'Adding qpdfviewer boot reference to your quasar.conf.js'`)
 
   if (api.hasVite !== true) {
@@ -16,7 +16,7 @@ const extendConf = function (conf, api) {
   }
 
   // make sure qpdfviewer css goes through webpack to avoid ssr issues
-  conf.css.push('~@quasar/quasar-app-extension-qpdfviewer/src/component/pdfviewer.sass')
+  conf.css.push('~@icfdigital/quasar-app-extension-qpdfviewer/src/component/pdfviewer.sass')
   console.log(` App Extension (qpdfviewer) Info: 'Adding pdfviewer.sass css reference to your quasar.conf.js'`)
 }
 

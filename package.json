@@ -1,5 +1,5 @@
 {
-  "name": "qpdfviewer",
+  "name": "@icfdigital/qpdfviewer",
   "version": "1.0.0",
   "description": "QPdfviewer mono-repo",
   "workspaces": [
